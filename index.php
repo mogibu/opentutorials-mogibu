@@ -1,6 +1,6 @@
 <?php
 // 1. 데이터베이스 서버에 접속
-$link=mysql_connect('localhost','root','tmdahrl0');
+$link=mysql_connect('localhost','ubuntu','tmdahrl0');
 if(!$link) {
 die('Could not connect: '.mysql_error());
 }
